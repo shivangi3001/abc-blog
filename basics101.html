@@ -5,7 +5,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <!--<meta http-equiv="x-ua-compatible" content="ie=edge">-->
         
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
         <!--<link rel="stylesheet" href="css/styles.css"> -->
@@ -89,7 +89,7 @@ li{
     text-decoration: none;
     transition: .25s ease-out;
 }
-.nav4 {
+/*.nav4 {
 height: 8vh;
 width: 1515px;
 list-style: none;
@@ -100,7 +100,7 @@ list-style: none;
 display: flex;
 position: absolute;
 
-}
+}*/
 .home {
 position: absolute;
 left: 2%;
@@ -162,7 +162,7 @@ position: absolute;
 width: 277px;
 height: 277px;
 left: 110px;
-top: 10px;
+top: 490px;
 border-radius: 22px;
 }
 
@@ -171,7 +171,7 @@ position: absolute;
 width: 277px;
 height: 277px;
 left: 595px;
-top: 10px;
+top: 490px;
 border-radius: 22px;
 }
 .ml {
@@ -179,7 +179,7 @@ position: absolute;
 width: 277px;
 height: 277px;
 left: 1071px;
-top: 10px;
+top: 490px;
 border-radius: 22px;
 }
 .app {
@@ -187,7 +187,7 @@ position: absolute;
 width: 277px;
 height: 277px;
 left: 110px;
-top: 320px;
+top: 800px;
 border-radius: 22px;
 }
 .ui {
@@ -195,7 +195,7 @@ position: absolute;
 width: 277px;
 height: 277px;
 left: 595px;
-top: 320px;
+top: 800px;
 border-radius: 22px;
 }
 .dev {
@@ -203,9 +203,85 @@ position: absolute;
 width: 277px;
 height: 277px;
 left: 1071px;
-top: 320px;
+top: 800px;
 border-radius: 22px;
 }
+            
+@media(max-width: 576px)
+{
+  .basic {
+        width: 120px;
+        height: 80px;
+        left: 142px;
+        font-size: 79px;
+        }
+ }
+ @media(max-width:768px)
+{
+    .basic {
+        width: 420px;
+        /*height: 10px;*/
+        left: 222px;
+        font-size: 69px;
+    }
+    .content {
+
+width: 1371px;
+height: 167px;
+left: 20px;
+
+}
+.lor{
+width: 712px;
+height: 164px;
+left: 22px;
+font-size: 28px;
+padding-left: 40px;
+padding-right: 40px;
+
+}
+.web-dev {
+
+width: 177px;
+height: 177px;
+left: 50px;
+top: 490px;
+}
+
+.data {
+width: 187px;
+height: 177px;
+left: 270px;
+top: 490px;
+}
+.ml {
+width: 177px;
+height: 177px;
+left: 490px;
+top: 490px;
+}
+.app {
+width: 177px;
+height: 177px;
+left: 50px;
+top: 690px;
+}
+.ui {
+width: 177px;
+height: 177px;
+left: 270px;
+top: 690px;
+}
+.dev {
+width: 177px;
+height: 177px;
+left: 490px;
+top: 690px;
+}
+    .footer{
+    margin-top: 810px;
+}
+            }
         </style>
         
     </head>
@@ -259,7 +335,13 @@ border-radius: 22px;
                 </span>
             </nav>
           </div>
-
+            
+        <!-- Breadcrumb-->
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item"><a href="#"><span>Home</span></a></li>
+      <li class="breadcrumb-item"><a href="#"><span>Basics 101 </span></a></li>
+    </ol>
+        
           <div id="joinmodal" class="modal fade" role="dialog">
             <div class="modal-dialog modal-lg" role="content">
                 <div class="modal-content">
@@ -285,12 +367,12 @@ border-radius: 22px;
                 </div>
           </div>
         </div>
-        <p class="home">< Home </p>
+  
     <p class="basic">Basics 101</p>
     <div class="content lor">
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
     </div>
-    <nav class="nav4">
+ 
       <ul1>
         <li1>
           <img src="web-dev.jpg" class="web-dev">
@@ -316,7 +398,7 @@ border-radius: 22px;
           <p></p>
         </li3>
       </ul2>
-    </nav>
+ 
 <!--Footer-->
 <footer class="footer">
     <div class="container">
