@@ -86,19 +86,38 @@ li{
 
 
 .basic {
-
+/*position: absolute;
+width: 460px;
+height: 80px;
+left: 472px;
+top: 130px;*/
 font-family: Roboto;
 font-style: normal;
 font-weight: 900;
 font-size: 89px;
+/*line-height: 109px;*/
 color: #000000;
 }
 .content {
+/*position: absolute;
+width: 1501px;
+height: 30rem;
+left: 6rem;
+top: 295px;*/
+
 background: #E8C22F;
 border-radius: 57px;
 }
-
 .lor{
+/*position: relative;
+width: 80rem;
+height: 12rem;
+left: 5rem;
+right: 5rem;
+top: 8rem;
+padding-top:1rem;
+padding-left: 3rem;
+padding-right: 3rem;*/
 
 font-family: Roboto;
 font-style: normal;
@@ -115,7 +134,7 @@ width: 277px;
 height: 277px;
 left: 110px;
 top: 490px;
-
+/*border-radius: 22px;*/
 }
 
 .data {
@@ -124,7 +143,7 @@ width: 277px;
 height: 277px;
 left: 595px;
 top: 490px;
-
+/*border-radius: 22px;*/
 }
 .ml {
 position: absolute;
@@ -132,7 +151,7 @@ width: 277px;
 height: 277px;
 left: 1071px;
 top: 490px;
-
+/*border-radius: 22px;*/
 }
 .app {
 position: absolute;
@@ -140,7 +159,7 @@ width: 277px;
 height: 277px;
 left: 110px;
 top: 800px;
-
+/*border-radius: 22px;*/
 }
 .ui {
 position: absolute;
@@ -148,7 +167,7 @@ width: 277px;
 height: 277px;
 left: 595px;
 top: 800px;
-
+border-radius: 22px;
 }
 .dev {
 position: absolute;
@@ -156,7 +175,7 @@ width: 277px;
 height: 277px;
 left: 1071px;
 top: 800px;
-
+border-radius: 22px;
 }
 @media(max-width:576px)
 {
@@ -188,3 +207,343 @@ top: 800px;
         height: 120px;
     }
 }
+
+
+/*@media(max-width: 576px)
+{
+   //mobile view
+    {
+        
+        .basic {
+        width: 300px;
+        height: 50px;
+        left: 140px;
+        top: 110px;
+        font-size: 49px;
+    }
+    
+.lor{
+width: 49px;
+height: 114px;
+left: 22px;
+top: 90px;
+font-size: 22px;
+line-height: 30px;
+padding-left: 20px;
+padding-right: 20px;
+}
+.web-dev {
+width: 127px;
+height: 127px;
+left: 50px;
+top: 380px;
+}
+.data {
+width: 137px;
+height: 127px;
+left: 220px;
+top: 380px;
+}
+.ml {
+width: 127px;
+height: 127px;
+left: 400px;
+top: 380px;
+}
+.app {
+width: 127px;
+height: 127px;
+left: 50px;
+top: 530px;
+}
+.ui {
+width: 127px;
+height: 127px;
+left: 220px;
+top: 530px;
+}
+.dev {
+width: 127px;
+height: 127px;
+left: 400px;
+top: 530px;
+}
+.footer{
+    margin-top: 400px;
+    
+    } 
+    
+}*/
+
+/*@media (min-width: 481px) and (max-width: 767px) {
+  
+  {
+        
+        .basic {
+        width: 380px;
+        height: 50px;
+        left: 80px;
+        top: 110px;
+        font-size: 49px;
+    }
+    
+.lor{
+width: 529px;
+height: 113px;
+left: 22px;
+top: 90px;
+font-size: 22px;
+line-height: 30px;
+padding-left: 20px;
+padding-right: 20px;
+}
+.web-dev {
+width: 127px;
+height: 127px;
+left: 50px;
+top: 380px;
+}
+.data {
+width: 137px;
+height: 127px;
+left: 220px;
+top: 380px;
+}
+.ml {
+width: 127px;
+height: 127px;
+left: 390px;
+top: 380px;
+}
+.app {
+width: 127px;
+height: 127px;
+left: 50px;
+top: 530px;
+}
+.ui {
+width: 127px;
+height: 127px;
+left: 220px;
+top: 530px;
+}
+.dev {
+width: 127px;
+height: 127px;
+left: 390px;
+top: 530px;
+}
+.footer{
+    margin-top: 470px;
+    
+    }
+  
+}
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+/*
+@media(max-width: 600px)
+    {
+        
+        .basic {
+        width: 380px;
+        height: 50px;
+        left: 180px;
+        top: 110px;
+        font-size: 49px;
+    }
+    
+.lor{
+width: 529px;
+height: 113px;
+left: 22px;
+top: 90px;
+font-size: 22px;
+line-height: 30px;
+padding-left: 20px;
+padding-right: 20px;
+}
+.web-dev {
+width: 127px;
+height: 127px;
+left: 50px;
+top: 380px;
+}
+.data {
+width: 137px;
+height: 127px;
+left: 220px;
+top: 380px;
+}
+.ml {
+width: 127px;
+height: 127px;
+left: 390px;
+top: 380px;
+}
+.app {
+width: 127px;
+height: 127px;
+left: 50px;
+top: 530px;
+}
+.ui {
+width: 127px;
+height: 127px;
+left: 220px;
+top: 530px;
+}
+.dev {
+width: 127px;
+height: 127px;
+left: 390px;
+top: 530px;
+}
+.footer{
+    margin-top: 470px;
+    
+    }
+}*/
+
+/*
+@media(max-width: 768px)
+{
+    .basic {
+        width: 420px;
+        left: 200px;
+        font-size: 69px;
+    }
+    .content {
+width: 1371px;
+height: 167px;
+left: 20px;
+}
+.lor{
+width: 712px;
+height: 164px;
+left: 22px;
+font-size: 28px;
+padding-left: 40px;
+padding-right: 40px;
+}
+.web-dev {
+width: 177px;
+height: 177px;
+left: 50px;
+top: 490px;
+}
+.data {
+width: 187px;
+height: 177px;
+left: 270px;
+top: 490px;
+}
+.ml {
+width: 177px;
+height: 177px;
+left: 490px;
+top: 490px;
+}
+.app {
+width: 177px;
+height: 177px;
+left: 50px;
+top: 690px;
+}
+.ui {
+width: 177px;
+height: 177px;
+left: 270px;
+top: 690px;
+}
+.dev {
+width: 177px;
+height: 177px;
+left: 490px;
+top: 690px;
+}
+.footer{
+    margin-top: 610px;
+    
+    }
+}*/
+
+/*@media (orientation: portrait)
+{
+  {
+        body{
+            background: 100%
+        }
+        .basic {
+        width: 420px;
+        left: 1rem;
+        font-size: 6rem;
+    }
+    .content {
+width: 1371px;
+height: 167px;
+left: 10px;
+}
+.lor{
+width: 712px;
+height: 14px;
+left: 22px;
+font-size: 28px;
+padding-left: 40px;
+padding-right: 40px;
+}
+.web-dev {
+width: 177px;
+height: 177px;
+left: 50px;
+top: 490px;
+}
+.data {
+width: 187px;
+height: 177px;
+left: 270px;
+top: 490px;
+}
+.ml {
+width: 177px;
+height: 177px;
+left: 490px;
+top: 490px;
+}
+.app {
+width: 177px;
+height: 177px;
+left: 50px;
+top: 690px;
+}
+.ui {
+width: 177px;
+height: 177px;
+left: 270px;
+top: 690px;
+}
+.dev {
+width: 177px;
+height: 177px;
+left: 490px;
+top: 690px;
+}
+.footer{
+    margin-top: 610px;
+    
+    }  
+}*/
+
+/*
+@media(min-width:768px)
+{
+    
+}
+/*
+@media(min-width: 992px)
+{
+    
+}*/
